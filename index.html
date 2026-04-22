@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ernest B. Hernandez | Cybersecurity Portfolio — Labs &amp; Projects</title>
+  <meta name="title" content="Ernest B. Hernandez | Cybersecurity Portfolio">
+  <meta name="description" content="Cybersecurity labs, hands-on projects, and skill progression by Ernest B. Hernandez — emerging Information Security Architect based in San Antonio, TX.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hello-im-ernest.github.io/earnest-bits-n-bytes/">
+  <meta property="og:title" content="Ernest B. Hernandez | Cybersecurity Portfolio">
+  <meta property="og:description" content="Curated labs, hands-on projects, and documented skill progression across defensive, analytical, and technical security domains.">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+  <!-- ─── NAV ─────────────────────────────────────────── -->
+  <nav>
+    <div class="container">
+      <a href="https://hello-im-ernest.github.io/" class="nav-logo">
+        hello-im-ernest
+        <span class="nav-logo-sep">/</span>
+        <span class="nav-logo-sub">bits-n-bytes</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#overview">overview</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#tools">tools</a></li>
+        <li><a href="#learning">learning</a></li>
+        <li><a href="#ctf">ctf</a></li>
+        <li><a href="#directory">directory</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ──────────────────────────────────────── -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-text">
+        <p class="hero-label">Cybersecurity Portfolio</p>
+        <h1 class="hero-name">Labs &amp; Projects</h1>
+        <p class="hero-sub">
+          <span id="typed-text">Documenting the build, break, and defend cycle.</span><span class="blink"></span>
+        </p>
+        <p class="hero-desc">
+          A curated record of hands-on labs, security tooling, and project work spanning network defense, 
+          threat analysis, and secure systems design — built alongside my B.A.T. in Cybersecurity at St. Philip's College.
+        </p>
+        <div class="hero-actions">
+          <a href="https://hello-im-ernest.github.io/" class="btn btn-primary">
+            🏠 Back to Home
+          </a>
+          <a href="https://github.com/hello-im-ernest" target="_blank" class="btn btn-ghost">
+            <img src="https://raw.githubusercontent.com/hello-im-ernest/hello-im-ernest/main/github.svg" width="20" alt="GitHub">
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/hello-im-ernest" target="_blank" class="btn btn-ghost">
+            <img src="https://raw.githubusercontent.com/hello-im-ernest/hello-im-ernest/main/LI-In-Bug.png" width="18" alt="LinkedIn">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="hero-terminal reveal">
+        <div class="terminal-bar">
+          <span class="t-dot t-red"></span>
+          <span class="t-dot t-yellow"></span>
+          <span class="t-dot t-green"></span>
+          <span class="t-title">~/earnest-bits-n-bytes</span>
+        </div>
+        <div class="terminal-body">
+          <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">whoami</span></div>
+          <div class="t-line t-out">ernest_b_hernandez</div>
+          <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">cat mission.txt</span></div>
+          <div class="t-line t-out t-comment"># Defense-in-Depth. Zero Trust.</div>
+          <div class="t-line t-out t-comment"># Build. Break. Defend. Repeat.</div>
+          <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">ls ./projects/</span></div>
+          <div class="t-line t-out">network-analysis/</div>
+          <div class="t-line t-out">packet-capture/</div>
+          <div class="t-line t-out">linux-hardening/</div>
+          <div class="t-line t-out">security-scripts/</div>
+          <div class="t-line"><span class="t-prompt">$</span> <span class="t-cursor">█</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── OVERVIEW ──────────────────────────────────── -->
+  <section id="overview">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01 // overview</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+
+        <div class="about-card reveal">
+          <div class="about-card-icon">🎯</div>
+          <h3>Mission</h3>
+          <p>
+            This portfolio documents my hands-on progression as an emerging security practitioner. 
+            Every lab, script, and write-up here represents a deliberate step toward mastering secure 
+            systems design and defense-in-depth strategy.
+          </p>
+        </div>
+
+        <div class="about-card reveal">
+          <div class="about-card-icon">🧭</div>
+          <h3>How to Navigate</h3>
+          <ul>
+            <li>Projects &amp; Labs — hands-on work with write-ups</li>
+            <li>Tools &amp; Environment — my security toolkit</li>
+            <li>Learning &amp; Certs — coursework &amp; study paths</li>
+            <li>CTF &amp; Challenges — competitive security practice</li>
+          </ul>
+        </div>
+
+        <div class="about-card reveal">
+          <div class="about-card-icon">📊</div>
+          <h3>Focus Domains</h3>
+          <ul>
+            <li>Network Defense &amp; Packet Analysis</li>
+            <li>Linux Systems &amp; Hardening</li>
+            <li>Threat Modeling &amp; OWASP</li>
+            <li>Security Scripting &amp; Automation</li>
+          </ul>
+        </div>
+
+        <div class="about-card reveal">
+          <div class="about-card-icon">📅</div>
+          <h3>Current Status</h3>
+          <ul>
+            <li>Actively adding labs &amp; write-ups</li>
+            <li>BAT, Cybersecurity — Class of 2027</li>
+            <li>Pursuing CTF challenges regularly</li>
+            <li>Open to internships &amp; collaborations</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ──────────────────────────────────── -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 // projects &amp; labs</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <!-- PROJECT CARD — replace placeholder content with your real labs -->
+        <div class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-meta">
+              <span class="project-status status-complete">✔ Complete</span>
+              <span class="project-domain domain-network">Network</span>
+            </div>
+            <h3 class="project-title">Packet Capture &amp; Protocol Analysis</h3>
+            <p class="project-desc">
+              Captured and analyzed live network traffic using Wireshark. Dissected TCP handshakes, 
+              identified cleartext credentials in HTTP flows, and documented suspicious traffic patterns 
+              indicative of a port scan.
+            </p>
+          </div>
+          <div class="project-card-bottom">
+            <div class="project-tags">
+              <span class="tag">Wireshark</span>
+              <span class="tag">TCP/IP</span>
+              <span class="tag">pcap</span>
+              <span class="tag">HTTP analysis</span>
+            </div>
+            <a href="https://github.com/hello-im-ernest" target="_blank" class="project-link">
+              View Write-up →
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-meta">
+              <span class="project-status status-complete">✔ Complete</span>
+              <span class="project-domain domain-linux">Linux</span>
+            </div>
+            <h3 class="project-title">Linux System Hardening Lab</h3>
+            <p class="project-desc">
+              Applied CIS Benchmark hardening procedures to a fresh Ubuntu Server installation. 
+              Configured UFW, disabled unnecessary services, enforced SSH key-only authentication, 
+              and audited user permissions using principle of least privilege.
+            </p>
+          </div>
+          <div class="project-card-bottom">
+            <div class="project-tags">
+              <span class="tag">Ubuntu</span>
+              <span class="tag">UFW</span>
+              <span class="tag">SSH</span>
+              <span class="tag">CIS Benchmarks</span>
+            </div>
+            <a href="https://github.com/hello-im-ernest" target="_blank" class="project-link">
+              View Write-up →
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-meta">
+              <span class="project-status status-progress">⟳ In Progress</span>
+              <span class="project-domain domain-script">Scripting</span>
+            </div>
+            <h3 class="project-title">Network Recon Automation Script</h3>
+            <p class="project-desc">
+              Python script that automates host discovery and basic service enumeration using Nmap via 
+              subprocess. Outputs a structured JSON report and flags open ports that deviate from a defined 
+              baseline — designed for home lab auditing.
+            </p>
+          </div>
+          <div class="project-card-bottom">
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Nmap</span>
+              <span class="tag">Bash</span>
+              <span class="tag">JSON</span>
+            </div>
+            <a href="https://github.com/hello-im-ernest" target="_blank" class="project-link">
+              View on GitHub →
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-meta">
+              <span class="project-status status-complete">✔ Complete</span>
+              <span class="project-domain domain-defense">Defense</span>
+            </div>
+            <h3 class="project-title">Firewall Rule Design &amp; Testing</h3>
+            <p class="project-desc">
+              Designed and validated firewall rule sets in a virtual lab environment. Implemented 
+              stateful inspection rules, tested ingress/egress filtering, and documented a layered 
+              defense-in-depth policy aligned with Zero Trust principles.
+            </p>
+          </div>
+          <div class="project-card-bottom">
+            <div class="project-tags">
+              <span class="tag">iptables</span>
+              <span class="tag">pfSense</span>
+              <span class="tag">Zero Trust</span>
+              <span class="tag">policy design</span>
+            </div>
+            <a href="https://github.com/hello-im-ernest" target="_blank" class="project-link">
+              View Write-up →
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-meta">
+              <span class="project-status status-progress">⟳ In Progress</span>
+              <span class="project-domain domain-web">Web Security</span>
+            </div>
+            <h3 class="project-title">OWASP Top 10 Lab Series</h3>
+            <p class="project-desc">
+              Working through each of the OWASP Top 10 vulnerabilities in a local DVWA instance. 
+              Each module includes a write-up covering the vulnerability, exploitation method, 
+              detection technique, and recommended mitigation.
+            </p>
+          </div>
+          <div class="project-card-bottom">
+            <div class="project-tags">
+              <span class="tag">OWASP</span>
+              <span class="tag">DVWA</span>
+              <span class="tag">Burp Suite</span>
+              <span class="tag">web security</span>
+            </div>
+            <a href="https://github.com/hello-im-ernest" target="_blank" class="project-link">
+              View Series →
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-meta">
+              <span class="project-status status-planned">◎ Planned</span>
+              <span class="project-domain domain-network">Network</span>
+            </div>
+            <h3 class="project-title">Home Lab Network Segmentation</h3>
+            <p class="project-desc">
+              Designing a segmented home lab with dedicated VLANs for trusted devices, IoT, and an 
+              isolated security testing zone. Will document the topology, VLAN tagging strategy, and 
+              inter-VLAN firewall policy.
+            </p>
+          </div>
+          <div class="project-card-bottom">
+            <div class="project-tags">
+              <span class="tag">VLANs</span>
+              <span class="tag">pfSense</span>
+              <span class="tag">network design</span>
+              <span class="tag">homelab</span>
+            </div>
+            <a href="https://github.com/hello-im-ernest" target="_blank" class="project-link">
+              Coming Soon →
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TOOLS ─────────────────────────────────────── -->
+  <section id="tools">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03 // tools &amp; environment</span>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="tools-categories">
+
+        <div class="tool-group reveal">
+          <h4 class="tool-group-label">⚡ Analysis &amp; Monitoring</h4>
+          <div class="tool-pill-row">
+            <span class="tool-pill">Wireshark</span>
+            <span class="tool-pill">Nmap</span>
+            <span class="tool-pill">tcpdump</span>
+            <span class="tool-pill">Netcat</span>
+            <span class="tool-pill">Burp Suite</span>
+          </div>
+        </div>
+
+        <div class="tool-group reveal">
+          <h4 class="tool-group-label">🖥️ Operating Systems</h4>
+          <div class="tool-pill-row">
+            <span class="tool-pill">Kali Linux</span>
+            <span class="tool-pill">Ubuntu Server</span>
+            <span class="tool-pill">Debian</span>
+            <span class="tool-pill">Windows Server</span>
+          </div>
+        </div>
+
+        <div class="tool-group reveal">
+          <h4 class="tool-group-label">🛠️ Scripting &amp; Dev</h4>
+          <div class="tool-pill-row">
+            <span class="tool-pill">Python</span>
+            <span class="tool-pill">Bash</span>
+            <span class="tool-pill">JavaScript</span>
+            <span class="tool-pill">Git</span>
+            <span class="tool-pill">VS Code</span>
+          </div>
+        </div>
+
+        <div class="tool-group reveal">
+          <h4 class="tool-group-label">🏗️ Infrastructure &amp; Virtualization</h4>
+          <div class="tool-pill-row">
+            <span class="tool-pill">VirtualBox</span>
+            <span class="tool-pill">pfSense</span>
+            <span class="tool-pill">VMware</span>
+            <span class="tool-pill">DVWA</span>
+            <span class="tool-pill">Metasploitable</span>
+          </div>
+        </div>
+
+        <div class="tool-group reveal">
+          <h4 class="tool-group-label">📋 Frameworks &amp; Standards</h4>
+          <div class="tool-pill-row">
+            <span class="tool-pill">OWASP Top 10</span>
+            <span class="tool-pill">NIST CSF</span>
+            <span class="tool-pill">CIS Benchmarks</span>
+            <span class="tool-pill">Zero Trust</span>
+            <span class="tool-pill">Defense-in-Depth</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── LEARNING ──────────────────────────────────── -->
+  <section id="learning">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">04 // learning &amp; certifications</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="learn-grid">
+
+        <div class="learn-card reveal">
+          <div class="learn-card-header">
+            <div class="learn-icon">🎓</div>
+            <div>
+              <div class="learn-title">BAT, Cybersecurity</div>
+              <div class="learn-issuer">St. Philip's College &nbsp;·&nbsp; Class of 2027</div>
+            </div>
+            <span class="learn-badge badge-active">In Progress</span>
+          </div>
+          <p class="learn-desc">
+            Bachelor of Applied Technology with focus on secure architecture, network defense, systems analysis, 
+            and information security governance. Core tracks include network security, systems hardening, 
+            and security policy design.
+          </p>
+        </div>
+
+        <div class="learn-card reveal">
+          <div class="learn-card-header">
+            <div class="learn-icon">🏅</div>
+            <div>
+              <div class="learn-title">CompTIA Security+</div>
+              <div class="learn-issuer">CompTIA &nbsp;·&nbsp; Certification</div>
+            </div>
+            <span class="learn-badge badge-studying">Studying</span>
+          </div>
+          <p class="learn-desc">
+            Actively studying for SY0-701. Covering threat actors, vulnerability management, cryptography, 
+            identity &amp; access management, and security operations. Using Professor Messer resources 
+            and practice exams.
+          </p>
+        </div>
+
+        <div class="learn-card reveal">
+          <div class="learn-card-header">
+            <div class="learn-icon">🕹️</div>
+            <div>
+              <div class="learn-title">TryHackMe</div>
+              <div class="learn-issuer">Hands-on Platform &nbsp;·&nbsp; Ongoing</div>
+            </div>
+            <span class="learn-badge badge-active">Active</span>
+          </div>
+          <p class="learn-desc">
+            Completing structured learning paths including Pre-Security, SOC Level 1, and Jr Penetration 
+            Tester. Each room focuses on applied skill-building across network analysis, web security, 
+            and Linux fundamentals.
+          </p>
+        </div>
+
+        <div class="learn-card reveal">
+          <div class="learn-card-header">
+            <div class="learn-icon">📘</div>
+            <div>
+              <div class="learn-title">Google Cybersecurity Certificate</div>
+              <div class="learn-issuer">Coursera / Google &nbsp;·&nbsp; Professional Certificate</div>
+            </div>
+            <span class="learn-badge badge-planned">Planned</span>
+          </div>
+          <p class="learn-desc">
+            8-course professional certificate covering threat detection, SIEM tools, Python automation for 
+            security tasks, and incident response. Planned as supplemental preparation alongside 
+            Security+ exam prep.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CTF ───────────────────────────────────────── -->
+  <section id="ctf">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">05 // ctf &amp; challenges</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="ctf-intro reveal">
+        <p>
+          Capture The Flag competitions and wargame challenges are core to how I develop applied 
+          offensive and defensive intuition. Below is a log of platforms used and events participated in.
+        </p>
+      </div>
+
+      <div class="ctf-grid">
+
+        <div class="ctf-card reveal">
+          <div class="ctf-platform">
+            <span class="ctf-platform-icon">🚩</span>
+            <span class="ctf-platform-name">TryHackMe</span>
+          </div>
+          <div class="ctf-details">
+            <span class="tag">Web</span>
+            <span class="tag">Network</span>
+            <span class="tag">Crypto</span>
+            <span class="tag">Linux</span>
+          </div>
+          <p class="ctf-notes">
+            Primary platform for structured skill development. Completed rooms in OSINT, network scanning, 
+            privilege escalation, and web exploitation.
+          </p>
+          <a href="https://tryhackme.com" target="_blank" class="project-link">View Profile →</a>
+        </div>
+
+        <div class="ctf-card reveal">
+          <div class="ctf-platform">
+            <span class="ctf-platform-icon">⚑</span>
+            <span class="ctf-platform-name">PicoCTF</span>
+          </div>
+          <div class="ctf-details">
+            <span class="tag">Forensics</span>
+            <span class="tag">Reverse Eng.</span>
+            <span class="tag">Crypto</span>
+          </div>
+          <p class="ctf-notes">
+            Participated in annual PicoCTF event. Solved challenges in binary exploitation, general skills, 
+            and cryptography categories. Strong intro to CTF methodology and flag hunting.
+          </p>
+          <a href="https://picoctf.org" target="_blank" class="project-link">View Platform →</a>
+        </div>
+
+        <div class="ctf-card reveal">
+          <div class="ctf-platform">
+            <span class="ctf-platform-icon">🎯</span>
+            <span class="ctf-platform-name">Hack The Box</span>
+          </div>
+          <div class="ctf-details">
+            <span class="tag">Machines</span>
+            <span class="tag">Challenges</span>
+            <span class="tag">Active</span>
+          </div>
+          <p class="ctf-notes">
+            Currently working through Starting Point machines. Focus on enumeration, foothold identification, 
+            privilege escalation, and post-exploitation reporting.
+          </p>
+          <a href="https://hackthebox.com" target="_blank" class="project-link">View Platform →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── DIRECTORY ─────────────────────────────────── -->
+  <section id="directory">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">06 // directory</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="dir-grid reveal">
+
+        <a href="https://hello-im-ernest.github.io/" class="dir-card">
+          <div class="dir-icon">🏠</div>
+          <div class="dir-title">Home</div>
+          <div class="dir-sub">hello-im-ernest.github.io</div>
+        </a>
+
+        <a href="https://github.com/hello-im-ernest" target="_blank" class="dir-card">
+          <div class="dir-icon">
+            <img src="https://raw.githubusercontent.com/hello-im-ernest/hello-im-ernest/main/github.svg" width="38" alt="GitHub">
+          </div>
+          <div class="dir-title">Navigation Hub</div>
+          <div class="dir-sub">GitHub Profile</div>
+        </a>
+
+        <a href="https://linkedin.com/in/hello-im-ernest" target="_blank" class="dir-card">
+          <div class="dir-icon">
+            <img src="https://raw.githubusercontent.com/hello-im-ernest/hello-im-ernest/main/LI-In-Bug.png" width="35" alt="LinkedIn">
+          </div>
+          <div class="dir-title">Let's Connect</div>
+          <div class="dir-sub">LinkedIn</div>
+        </a>
+
+        <a href="https://hello-im-ernest.github.io/assets/Ernest_Hernandez_Resume.pdf" target="_blank" class="dir-card">
+          <div class="dir-icon">📄</div>
+          <div class="dir-title">Résumé</div>
+          <div class="dir-sub">PDF Download</div>
+        </a>
+
+        <a href="mailto:hello.im.ernest@gmail.com" class="dir-card">
+          <div class="dir-icon">📧</div>
+          <div class="dir-title">Contact Me</div>
+          <div class="dir-sub">Email</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─────────────────────────────────────── -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-version">
+        <sub>v1.0 • Last updated: April 2026</sub>
+      </div>
+      <div class="footer-copyright">
+        <sub>© <span id="year"></span> Ernest B. Hernandez</sub>
+      </div>
+      <div class="footer-link">
+        <a href="#hero" class="footer-brand-link">
+          <sub>earnest-bits-n-bytes</sub>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ─── SCRIPTS ──────────────────────────────────────── -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(
+      entries => entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add('visible');
+      }),
+      { threshold: 0.08 }
+    );
+    reveals.forEach(el => observer.observe(el));
+
+    // Typed text in hero
+    const phrases = [
+      'Documenting the build, break, and defend cycle.',
+      'Hands-on labs. Real tools. Deliberate practice.',
+      'Defense-in-Depth from the ground up.',
+      'Engineering trust into digital systems.',
+    ];
+    const el = document.getElementById('typed-text');
+    let phraseIdx = 0, charIdx = 0, deleting = false;
+    function type() {
+      const current = phrases[phraseIdx];
+      el.textContent = deleting
+        ? current.substring(0, charIdx--)
+        : current.substring(0, charIdx++);
+      if (!deleting && charIdx === current.length + 1) {
+        setTimeout(() => { deleting = true; type(); }, 2200);
+        return;
+      }
+      if (deleting && charIdx === 0) {
+        deleting = false;
+        phraseIdx = (phraseIdx + 1) % phrases.length;
+      }
+      setTimeout(type, deleting ? 38 : 68);
+    }
+    setTimeout(type, 1000);
+  </script>
+
+</body>
+</html>
